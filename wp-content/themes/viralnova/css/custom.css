@@ -1,0 +1,91 @@
+/**
+ * Extra styles for our theme
+ */
+ .search {
+	background-image: url(../images/glass.png);
+}
+.logo, .social > a, .article-nav > a > div, .footlogo {
+	background-image: url(../images/sprite.png);
+}
+.articlefb {
+	background-image: url(../images/shareonfb.png);
+}
+.nav li:hover, .nav > li:hover a {
+	background-color: #FEDD7A;
+	color: #EE4723;
+	border-bottom: #FEDD7A;
+}
+.span_1, .span_2, .grid > div:first-child {
+	height: 320px;
+}
+.articles .feature img {
+	height: 252px;
+}
+.stick1.affix {
+	position: fixed;
+	width: 330px;
+	top: 0;
+}
+.stick1.affix-bottom {
+	position: absolute;
+	width: 330px;
+}
+.footmenu .categories > div {
+	height: auto;
+	min-height: 140px;
+}
+.ad {
+	text-align: center;
+}
+.article-social {
+	width: 400px;
+}
+.articles .signup-box {
+	background: transparent;
+}
+#infscr-loading {
+	text-align: center;
+	clear: both;
+}
+.footer .ad {
+	background: #ee4723;
+	min-height: 90px;
+}
+.footmenu > div.connect {
+	max-width: 320px;
+}
+/* Paging Navigation */
+
+.paging-navigation {
+	border-top: 5px solid #EE4723;
+	margin: 48px 0;
+	clear: both;
+}
+
+.paging-navigation .loop-pagination {
+	margin-top: -5px;
+	text-align: center;
+}
+
+.paging-navigation .page-numbers {
+	border-top: 5px solid transparent;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 900;
+	margin-right: 1px;
+	padding: 7px 16px;
+	text-transform: uppercase;
+}
+
+.paging-navigation a {
+	color: #2b2b2b;
+}
+
+.paging-navigation .page-numbers.current {
+	border-top: 5px solid #FEDD7A;
+}
+
+.paging-navigation a:hover {
+	border-top: 5px solid #FEDD7A;
+	color: #2b2b2b;
+}
